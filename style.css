@@ -1,0 +1,105 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #0a0a0f 0%, #111b29 50%, #121c33 100%);
+    font-family: "Roboto Mono", monospace;
+    margin: 20rem;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box-profile{
+    border: 1px solid aqua;
+    background-color: #14141d;
+    background-blend-mode: lighten;
+    border-radius: 40px;
+    
+    padding: 20px;
+    height: 250px;
+    width: 400px;
+    transition: transform 250ms;
+    backdrop-filter: blur(5px);
+}
+.box-profile:hover{
+    box-shadow: 0px 0px 20px rgba(66, 121, 224, 0.3), inset 0px 0px 40px rgba(66, 121, 224, 0.3);
+    transform: translateY(-6px); 
+
+}
+
+.circel{
+    border-radius: 50%;
+    border: 2px solid aqua;
+    width: 120px;
+    float: left;
+    
+}
+
+.Navbar {
+    position: fixed;
+    background-color: rgba(24, 24, 36,0.6);
+    backdrop-filter: blur(10px);
+    top: 0;
+    text-align: right;
+    padding: 1rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.Navbar ul li {
+    backdrop-filter: blur(10px);
+    position: relative;
+    color: #fdfdfd;
+    right: 20px;
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+    background-color: #252533;
+    padding: 8px 8px;
+    border-radius: 2rem;
+    transition: all 250ms ease-in;
+}
+
+.Navbar ul li:hover {
+    background-color: #9999af;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+.navbar-name {
+    position: fixed;
+    left: 2rem;
+    top: 1.2rem;
+    color: aqua;
+    font-size: 2rem;
+}
+
+.primary-bold-text{
+    color: aqua;
+    text-shadow: 0px 0px 10px aqua;
+
+}
+
+.description-text{
+    color: #fdfdfd;
+
+}
+
+#side-hero {
+    position: relative;
+    font-size: 3rem;
+}
+
+#title-hero {
+    position: relative;
+    font-size: 7rem;
+}
+
+#desc-hero {
+    position: relative;
+    font-size: 2rem;
+
+}
