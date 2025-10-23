@@ -326,6 +326,12 @@ body{
 
 /* CONTACT */
 
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .contactcolumn{
     display: grid;
 
@@ -334,11 +340,48 @@ body{
 }
 
 .invisframe {
-    background-color: rgba(104, 198, 226,0.3);
-    border-radius: 2%;
-    border: #68c6e2 solid 0.1px;
+    display: flex;
+
+    background-color: rgba(104, 198, 226,0.1);
+    border-radius: 0.3rem;
+    border: rgba(104, 198, 226,0.1) solid 0.1px;
     width: 30vw;
-    height: 23vw;
+    height: 5vw;
     padding: 1vw;
     margin: 5vw;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.buttoncontact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(104, 198, 226,0.1);
+    border-radius: 1rem;
+    border: rgba(104, 198, 226,0.1) solid 0.1px;
+
+    width: 10rem;
+    height: 3rem;
+    padding: 0.1rem;
+    margin: 0.5rem;
+    text-decoration: none;
+}
+
+.buttoncontact:hover{
+    background-color: rgba(104, 198, 226,0.4);
+    cursor: pointer;
+}
+
+.scaleimg {
+    width: 2rem;
+    height: 2rem;
+    margin: 0.3rem;
+}
+
+.buttoncontact h1 {
+    color: white;
+
 }
