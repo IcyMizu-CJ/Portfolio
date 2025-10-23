@@ -5,28 +5,103 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <script src="main.js"></scripthref>></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Play:wght@400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        
         <div class="Navbar">
             <ul>
-                <li href = '#Home'>Home</li>
-                <li href = '#Projects'>Projects</li>
-                <li href = '#Skills'>Skills</li>
-                <li href = '#Contact'>Contact</li>
+                <a href = '#Home'>Home</a>
+                <a href = '#Projects'>Projects</a>
+                <a href = '#Skills'>Skills</a>
+                <a href = '#Contact'>Contact</a>
             </ul>
         </div>
         <a class = 'navbar-name'>IcyMizu</a>
     </head>
 
-    <section id = '#Home'>
         <body>
-            
-            <b id = 'side-hero' class='description-text'>Hey, i am </b>
-            <b id = 'title-hero' class='primary-bold-text'>IcyMizu</b>
-            <p id = 'desc-hero' class='description-text'>Roblox developer with 6 years of experience making fun, scalable systems — from combat mechanics to custom UIs and datastores. I turn ideas into playable experiences.</p>   
-            
+            <section id = 'Home' class = 'hero'>
+                <div class = 'sort-hero-text'>
+                    <img src="components/RobloxChar.png" class = 'profile-image'></img>
+                    <h2 id = 'title-hero' class='primary-bold-text'>IcyMizu</h2>
+                </div>
+                <p id = 'desc-hero' class='description-text'>Roblox developer with 6 years of experience making fun, scalable systems — from combat mechanics to custom UIs and datastores. I turn ideas into playable experiences.</p>   
+                <div class = 'sidebuttons'>
+                    <a>Contact Me</a>
+                    <a href = '#Projects'>View My Work</a>
+                </div>
+            </section>
+
+            <section id = 'Projects' class = 'projects'>
+                <div class = 'divanimate animate'>
+                    <h2 class = 'header-title'>Projects</h2>
+                    <h2 class = 'paragraph'>(Click on a system to view it)</h2>
+                    <div class = 'columndiv divanimate' >
+                        <a href = 'https://youtu.be/-eQL6twalTs' target = "_blank" class = 'squarediv ' >
+                            <h2>Shop System</h2>
+                            <img src = 'components/ShopSystem.png' ><img>
+                            <p>A shop system i made that saves , and has multiple slots for primary,secondary etc. also includes morphs and emotes</p>
+                            <div class = 'column'>
+                                <div class = 'tag'>
+                                    <h3>
+                                        Datastores
+                                    </h3>
+                                </div>
+                                <div class = 'tag'>
+                                    <h3>
+                                        Commission
+                                    </h3>
+                                </div>
+                               
+                            </div>
+                        </a>
+                        <a href = 'https://youtu.be/1t44sTTGX54' target = "_blank" class = 'squarediv' >
+                            <h2>Emote Wheel System</h2>
+                            <img src = 'components/Emotes.png' ><img>
+                            <p>A emote equip system that saves</p>
+                            <div class = 'column'>
+                                <div class = 'tag'>
+                                    <h3>
+                                        Datastores
+                                    </h3>
+                                </div>
+                                <div class = 'tag'>
+                                    <h3>
+                                        Commission
+                                    </h3>
+                                </div>
+                               
+                            </div>
+                        </a>
+                        <a href = 'https://youtu.be/pNlTGZXdsw0' target = "_blank" class = 'squarediv' >
+                            <h2>Loading Screen</h2>
+                            <img src = 'components/LoadingScreen.png' ><img>
+                            <p>A loading screen i made for my game</p>
+                            <div class = 'column'>
+                                <div class = 'tag'>
+                                    <h3>
+                                        Solo-Project
+                                    </h3>
+                                </div>
+                               
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </section>
+
+             <section id = 'Skills' class = 'skills'>
+                <div class = 'divanimate animate'>
+                    <h2 class = 'header-title'>Skills</h2>
+                    <div class = 'columndiv divanimate' >
+
+                        
+
+                    </div>
+                </div>
+             </section>
         </body>
-    </section>
 </html>
