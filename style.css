@@ -68,8 +68,8 @@ body{
     text-decoration:none;
 }
 
-.Navbar ul li:hover {
-    background-color: #9999af;
+.Navbar ul a:hover {
+    background-color: #68c6e2;
     padding: 15px 15px;
     cursor: pointer;
 }
@@ -298,4 +298,47 @@ body{
     padding: 1rem;
     background-color: #0a0a0f;
 
+}
+
+.skillcolumn{
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    padding: 5rem;
+
+}
+
+.skillcolumn img {
+    width: 5rem;
+    height: 5rem;
+
+    margin: 1rem;
+
+    transition: all 400ms;
+}
+
+.skillcolumn img:hover {
+    width: 7rem;
+    height: 7rem;
+
+}
+
+/* CONTACT */
+
+.contactcolumn{
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.invisframe {
+    background-color: rgba(104, 198, 226,0.3);
+    border-radius: 2%;
+    border: #68c6e2 solid 0.1px;
+    width: 30vw;
+    height: 23vw;
+    padding: 1vw;
+    margin: 5vw;
 }
